@@ -1,6 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=1800&t=st=1675181137~exp=1675181737~hmac=8146956ab6d5238f1ffecbaa4de73167cb7fb9546ee957dde3c63439f3f5b38c.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
 h1 {
-  color: rgb(48, 47, 47);
+  color: rgb(57, 55, 59);
   margin: 5%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h2 {
+  color: rgb(250, 245, 245);
+  font-size: 2rem;
+  text-shadow: rgb(0, 138, 243) 5px 0 0;
 }
 
 .main {
@@ -15,23 +34,38 @@ h1 {
   width: 50%;
 }
 
-.recentScore {
+.recentScores {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
-.recentScore button {
-  box-shadow: 3px 3px rgba(0 0 0 / 76%);
+.scores {
+  border: 3px solid rgb(54, 132, 196);
+  background: rgb(133, 150, 229);
+  height: 32vh;
+  border-radius: 10px;
+  overflow-y: scroll;
 }
 
-table {
-  border: 2px solid black;
-  width: 100%;
+.scores::-webkit-scrollbar {
+  display: none;
 }
 
-tr:nth-child(even) {
-  background-color: rgb(150, 150, 140);
+.scores p {
+  margin: 0;
+  padding: 4%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.scores p:hover {
+  cursor: pointer;
+  color: rgb(67, 250, 155);
+}
+
+.scores p:nth-child(even) {
+  background-color: rgb(187, 187, 172);
 }
 
 .containerTwo {
@@ -45,11 +79,85 @@ form {
   gap: 20px;
 }
 
-form > input {
-  border: 2px solid black;
+input {
+  outline: none;
+  padding: 3%;
+  border-radius: 10px;
+  font-size: 1.2rem;
 }
 
-#submitBtn {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+input:focus {
+  border: 3px solid rgb(74, 197, 235);
+  box-shadow: 0 1px 2px 0 rgba(0, 255, 98, 0.7);
+}
+
+button {
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 35%;
+  cursor: pointer;
+  height: 2.5rem;
+  background: rgb(70, 125, 197);
+  font-size: 1.2rem;
+  transition: all 0.6s ease-in;
+}
+
+button:hover {
+  box-shadow: 0 1px 2px 0 rgba(0, 255, 34, 0.7);
+}
+
+#submittBtn {
   align-self: end;
-  width: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    height: 100vh;
+  }
+
+  .main {
+    margin: 30% 5%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    padding-top: 5%;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .containerOne {
+    width: 60%;
+  }
+
+  .containerTwo {
+    width: 40%;
+  }
+
+  .scores {
+    width: 100%;
+  }
+
+  .scores p {
+    font-size: 1rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  button {
+    height: 1.5rem;
+    font-size: 0.8rem;
+  }
 }
