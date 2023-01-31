@@ -1,0 +1,55 @@
+h1 {
+  color: rgb(48, 47, 47);
+  margin: 5%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% 10%;
+  gap: 30px;
+}
+
+.containerOne {
+  width: 50%;
+}
+
+.recentScore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recentScore button {
+  box-shadow: 3px 3px rgba(0 0 0 / 76%);
+}
+
+table {
+  border: 2px solid black;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(150, 150, 140);
+}
+
+.containerTwo {
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+form > input {
+  border: 2px solid black;
+}
+
+#submitBtn {
+  align-self: end;
+  width: 20%;
+}
