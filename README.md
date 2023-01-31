@@ -33,11 +33,11 @@ Also to understand Gitflow process.
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Build With</summary>
+  <summary>Built With</summary>
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript ES6</a></li>
     <li><a href="https://webpack.js.org/">Webpack</a></li>
   </ul>
 </details>
