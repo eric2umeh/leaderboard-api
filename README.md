@@ -14,7 +14,6 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -27,6 +26,8 @@
 A Javascript app for calling api of a leaderoard. 
 Built to understand the callback, promises, proper use of ES6 syntax, ES6 modules to write modular JavaSript & webpack to bundle javaScript.
 Also to understand Gitflow process.
+
+![screenshot](./Screenshot.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,17 +76,25 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/eric2umeh/leaderboard-api.git
+  - Install the dev dependencies for linters run npm install.
+  - run: ```npm  i --save-dev webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader style-loader css-loader sass-loader html-webpack-plugin mini-css-extract-plugin ```
 ```
 
 ### Usage
 
-To run the project, open index.html in your web browser.
+After Installing all the packages run this command ``` npm run start ``` to start dev server and you can just press ```Ctrl + C``` in the terminal and that will kill it and run ``` npm run build ``` to creates a build directory with a production build of your app . 
 
 ### Run tests
+ Run the following command
+- npx eslint .
+- npx stylelint "**/*.{css,scss}"
 
-To run tests, run the following command: Right click on the index.html document then open with live server. Make sure live server extension is install in your text editor.
+### API keys and credentials
+
+- The base url was gotten from [notion](https://us-central1-js-capstone-backend.cloudfunctions.net/api/)
+- The endpoint is https://us-central1-js-capstone-backend.cloudfunctions.net/api/games
+- To use a unique id, URL example `/games/Zl4d7IVkemOTTVg2fUdz/scores/`. You can change  the id to youur own key in the getPost.js file.
+- This can be used for the GET and POST method
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
