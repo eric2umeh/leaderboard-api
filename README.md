@@ -22,7 +22,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Todo List <a name="about-project"></a>
+# 📖 Leaderboard Api <a name="about-project"></a>
 
 A Javascript app for calling api of a leaderoard. 
 Built to understand the callback, promises, proper use of ES6 syntax, ES6 modules to write modular JavaSript & webpack to bundle javaScript.
