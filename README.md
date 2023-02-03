@@ -93,7 +93,7 @@ After Installing all the packages run this command ``` npm run start ``` to star
 
 - The base url was gotten from [notion](https://us-central1-js-capstone-backend.cloudfunctions.net/api/)
 - The endpoint is https://us-central1-js-capstone-backend.cloudfunctions.net/api/games
-- To use a unique id, URL example `/games/Zl4d7IVkemOTTVg2fUdz/scores/`. You can change  the id to youur own key in the getPost.js file.
+- To use a unique id, URL example `/games/Zl4d7IVkemOTTVg2fUdz/scores/`. You can change  the id to youur own key in the getPost.js file or through Postman.
 - This can be used for the GET and POST method
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
