@@ -52,7 +52,7 @@ Also to understand Gitflow process.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://eric2umeh.github.io/leaderboard-api/)
+- [Live Demo](https://eric2umeh.github.io/leaderboard-api/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
