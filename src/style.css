@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  color: rgb(57, 55, 59);
+  color: rgb(63, 59, 66);
   margin: 5%;
   text-align: center;
   font-size: 4rem;
@@ -19,7 +19,7 @@ h1 {
 h2 {
   color: rgb(250, 245, 245);
   font-size: 2rem;
-  text-shadow: rgb(0, 138, 243) 5px 0 0;
+  text-shadow: rgba(0, 138, 243, 0.853) 5px 0 0;
 }
 
 .main {
@@ -42,7 +42,7 @@ h2 {
 
 .scores {
   border: 3px solid rgb(54, 132, 196);
-  background: rgb(133, 150, 229);
+  background: rgb(118, 136, 216);
   height: 32vh;
   border-radius: 10px;
   overflow-y: scroll;
@@ -61,7 +61,7 @@ h2 {
 
 .scores p:hover {
   cursor: pointer;
-  color: rgb(67, 250, 155);
+  color: rgba(67, 250, 155, 0.927);
 }
 
 .scores p:nth-child(even) {
